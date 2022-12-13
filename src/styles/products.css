@@ -1,0 +1,118 @@
+#content{
+    background: linear-gradient(151.64deg, #FFFFFF 12.9%, #9F5DE6 76.97%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#productsHeader{
+    height: 25%;
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+#productsBlock{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+#headerProdsTitle{
+    width: 55%;
+    border-bottom: 0.1vw solid #3E0B71;
+    padding: 3% 0;
+    color: #3E0B71;
+    font-size: 2.2vw;
+    border-bottom: #3E0B71 solid 0.27vh;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+#logoProds{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    height: 10%;
+}
+
+
+
+.boxProduct{
+    width: 30%;
+    height: 75%;
+    gap: 5%;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prodImage{
+    width: 80%;
+    height: 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 22px;
+    filter: drop-shadow(0px 1px 1px rgba(62, 11, 113, 0.3));
+    border: 1px solid white;
+    background: linear-gradient(151.79deg, rgba(255, 255, 255, 0.73) 23.73%, rgba(255, 255, 255, 0) 92.6%);
+}
+
+.titleProduct{
+    width: 80%;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-size: 1.5vw;
+}
+
+.descriptionProduct{
+    text-align: center;
+    font-family: "Montserrat";
+    width: 80%;
+    height: 20%;
+    color: #FFFFFF;
+}
+
+.priceProduct>button{
+    background: linear-gradient(264.18deg, rgba(195, 21, 223, 0.75) 11.82%, rgba(62, 11, 113, 0.75) 78.86%);
+    box-shadow: 0px 1px 1px rgba(62, 11, 113, 0.3);
+    border-radius: 12px 0px 0px 12px;
+    outline: none;
+    border: 0;
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 0.7vw;
+    text-align: center;
+    font-family: "Montserrat";
+    padding: 2% 5%;
+    width: 25%;
+    margin-top: 2%;
+}
+
+.priceProduct > p{
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-size: 0.7vw;
+    margin-right: 2%;
+}
+
+.priceProduct{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

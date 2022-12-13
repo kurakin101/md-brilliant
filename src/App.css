@@ -1,0 +1,23 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./styles/Montserrat-VariableFont_wght.ttf');
+}
+
+
+
+.App {
+    background: linear-gradient(139.04deg, #FFFFFF 23.85%, #9F5DE6 84.21%);
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+    display: flex;
+}
+
