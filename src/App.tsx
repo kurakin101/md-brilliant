@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import AuthPage from './pages/auth'
+import "./styles/Inter Web/inter.css"
+import "./styles/Montserrat/stylesheet.css"
 
 function App() {
   const [ email, set_login ] = useState('')

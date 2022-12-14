@@ -58,7 +58,7 @@ function AuthPage({
         });
     }
   return (
-    <>
+    <div id="con">
         <div className="discreptions_about_app">
             <div id="title">
                 <img src={logo} alt="Logotype"/>
@@ -80,6 +80,11 @@ function AuthPage({
 
         <div className="authentication_box">
 
+        <div id="mobile">
+                <img id="mobLogo" src={logo} alt="Logo" />
+                <p>Оплата тарифа</p>
+            </div>
+
             <div className="box_for_name_app">
                 <div id="appName">
                 Войти в MD.Brilliant
@@ -87,15 +92,17 @@ function AuthPage({
             </div>
 
             <div className="lables">
+                <div id="ins">
                 <input placeholder="Логин" onChange={change_login} type="email" className="inputs"/>
                 <input placeholder="Пароль" onChange={change_password} type="password" className="inputs"/>
+                </div>
                 <button id="authenticationBtn" onClick={authentication_request}>ВОЙТИ</button>
             </div>
 
-        <Footer/>
+        <Footer />
         </div>
 
-    </>
+    </div>
   );
 }
 

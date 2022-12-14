@@ -1,4 +1,3 @@
-
 .box_social_network{
     width: 100%;
     height: 10%;
@@ -31,16 +30,22 @@
     align-items: center;
 }
 
+.netLogo{
+    height: 100%;
+}
+
 .netName{
     color: white;
     font-family: "Montserrat";
     font-size: 0.7vw;
+    font-weight: 500;
 }
 
 
 #stores{
     width: 20vw;
     height: 100%;
+    gap: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +53,7 @@
 
 .store{
     width: 35%;
-    height: 80%;
+    height: 100%;
     outline: none;
     border: none;
     cursor: pointer;
@@ -63,3 +68,10 @@
     background: url("../../media/appstore.png") no-repeat center;
     background-size:contain;
 }
+
+@media screen and (max-width: 780px){
+    .box_social_network{
+        display: none;
+    }
+}
+

@@ -47,15 +47,16 @@ function ProductsPage({
               for(const value in productsArray) {
                 ProductsElements.push(
                   <div className="boxProduct">
-                    <div className="prodImage" 
-                    /* Расскомментировать, чтобы были картинки style={{ backgroundImage: "url(" + productsArray[value].image + ")"}}*/>
+                    <div className="prodImage" style={{ backgroundImage: 
+                      "linear-gradient(151.79deg, rgba(255, 255, 255, 0.73) 23.73%, rgba(255, 255, 255, 0) 92.6%)," +
+                      "url(" + productsArray[value].image + ")"}}>
                     <div className="priceProduct">
                       <p>{ productsArray[value].price } руб.</p>
                       <button key={productsArray[value].id} onClick={() => payRequest(productsArray[value].id)}>Купить</button>
                     </div>
                     </div>
                     <div className="titleProduct">
-                      <b>{ value }</b>
+                      <p>{ value }</p>
                     </div>
                     <div className="descriptionProduct">
                       { productsArray[value].description }
@@ -72,7 +73,13 @@ function ProductsPage({
           });
     }, [products])
     return (
-        <div id="content">
+        <div id="cont">
+          <div id="headerMobile">
+          <div id="mobile">
+                <img id="mobLogo" src={logo} alt="Logo" />
+                <p>Выберите продукт</p>
+            </div>
+          </div>
         <img src={logo} alt="Logotype" id="logoProds" />
         <div id="productsHeader">
         <div id="headerProdsTitle">
