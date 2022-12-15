@@ -33,6 +33,20 @@ function ProductsPage({
     const [products, set_products]: any[] = useState([])
     const payRequest = (key: number) => {
       console.log(key)
+      axios({
+        url: "/api/order/create/",
+        method: "POST",
+        data: {
+          ProductId: key,
+          UserId: id_user
+        }
+      }).then((val)=>{
+        const data: {
+          OrderId: any,
+          PaymentURL: string
+        } = val.data
+        window.location.href = data.PaymentURL
+      })
     }
     useEffect(()=> {
         get(child(database, `products/`)).then((snapshot) => {
