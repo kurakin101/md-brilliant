@@ -1,0 +1,21 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background: linear-gradient(139.04deg, #FFFFFF 23.85%, #9F5DE6 84.21%);
+    width: 100vw;
+    height: auto;
+    overflow-y: auto;
+    display: flex;
+}
+
+#con{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
