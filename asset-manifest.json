@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/md-brilliant/static/css/main.9ade4a27.css",
-    "main.js": "/md-brilliant/static/js/main.a1116010.js",
+    "main.js": "/md-brilliant/static/js/main.c342494b.js",
     "static/media/Montserrat-BlackItalic.eot": "/md-brilliant/static/media/Montserrat-BlackItalic.e885010b57eaa0bc6e3e.eot",
     "static/media/Montserrat-BlackItalic.ttf": "/md-brilliant/static/media/Montserrat-BlackItalic.723da89da4f4081f6607.ttf",
     "static/media/Montserrat-Black.eot": "/md-brilliant/static/media/Montserrat-Black.fe4a1ef2fcacdca962fd.eot",
@@ -95,19 +95,19 @@
     "static/media/Inter-Black.woff2?v=3.19": "/md-brilliant/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
     "static/media/Inter-Thin.woff2?v=3.19": "/md-brilliant/static/media/Inter-Thin.fff2a096db014f6239d4.woff2",
     "static/media/Inter-Regular.woff2?v=3.19": "/md-brilliant/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
-    "static/media/mastercard.svg": "/md-brilliant/static/media/mastercard.8aee0e5837f6520e62174d99b95dc88c.svg",
-    "static/media/instagram.svg": "/md-brilliant/static/media/instagram.d0a903a8e2c74566ecbfb4decc6cd038.svg",
-    "static/media/sbp.svg": "/md-brilliant/static/media/sbp.2ef6cab2550bc6e9b484c7e1448beddd.svg",
-    "static/media/visa.svg": "/md-brilliant/static/media/visa.634b1af7dfb3abd78a1f6f25d0854f3b.svg",
-    "static/media/youtube.svg": "/md-brilliant/static/media/youtube.f04277bcb5835038d83bb4a1abc974c2.svg",
+    "static/media/mastercard.svg": "/md-brilliant/static/media/mastercard.8b3e9ea74d7cc9762a529bbd43a70bbe.svg",
+    "static/media/instagram.svg": "/md-brilliant/static/media/instagram.cfc3a77f9a275dff454a5bc2e28689b5.svg",
+    "static/media/sbp.svg": "/md-brilliant/static/media/sbp.c96a77c573a1785b5754106da11840f2.svg",
+    "static/media/visa.svg": "/md-brilliant/static/media/visa.700f47ee1020738dc643f8c86d4c919c.svg",
+    "static/media/youtube.svg": "/md-brilliant/static/media/youtube.15be501ec3da530bf7ade84b0cd479b7.svg",
     "index.html": "/md-brilliant/index.html",
-    "static/media/logo.svg": "/md-brilliant/static/media/logo.e5b5be1d8cc4705a82ac949a9ff57913.svg",
-    "static/media/mir.svg": "/md-brilliant/static/media/mir.17317b888e8634c2e651f966e92a893f.svg",
+    "static/media/logo.svg": "/md-brilliant/static/media/logo.707eb5cd0cfef4ff613e11273b96bfb4.svg",
+    "static/media/mir.svg": "/md-brilliant/static/media/mir.561ace032674d540d5d5effd04e91873.svg",
     "main.9ade4a27.css.map": "/md-brilliant/static/css/main.9ade4a27.css.map",
-    "main.a1116010.js.map": "/md-brilliant/static/js/main.a1116010.js.map"
+    "main.c342494b.js.map": "/md-brilliant/static/js/main.c342494b.js.map"
   },
   "entrypoints": [
     "static/css/main.9ade4a27.css",
-    "static/js/main.a1116010.js"
+    "static/js/main.c342494b.js"
   ]
 }
