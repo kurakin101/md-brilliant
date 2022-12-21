@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/md-brilliant/static/css/main.ffe61296.css",
+    "main.css": "/md-brilliant/static/css/main.90b0531d.css",
     "main.js": "/md-brilliant/static/js/main.c342494b.js",
     "static/media/Montserrat-BlackItalic.eot": "/md-brilliant/static/media/Montserrat-BlackItalic.e885010b57eaa0bc6e3e.eot",
     "static/media/Montserrat-BlackItalic.ttf": "/md-brilliant/static/media/Montserrat-BlackItalic.723da89da4f4081f6607.ttf",
@@ -103,11 +103,11 @@
     "index.html": "/md-brilliant/index.html",
     "static/media/logo.svg": "/md-brilliant/static/media/logo.707eb5cd0cfef4ff613e11273b96bfb4.svg",
     "static/media/mir.svg": "/md-brilliant/static/media/mir.561ace032674d540d5d5effd04e91873.svg",
-    "main.ffe61296.css.map": "/md-brilliant/static/css/main.ffe61296.css.map",
+    "main.90b0531d.css.map": "/md-brilliant/static/css/main.90b0531d.css.map",
     "main.c342494b.js.map": "/md-brilliant/static/js/main.c342494b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffe61296.css",
+    "static/css/main.90b0531d.css",
     "static/js/main.c342494b.js"
   ]
 }
