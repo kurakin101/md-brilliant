@@ -46,7 +46,7 @@
 
 .boxProduct{
     width: 30%;
-    height: 75%;
+    height: 80%;
     gap: 5%;
     overflow-y: scroll;
     scrollbar-width: none;
@@ -72,7 +72,7 @@
 
 .titleProduct{
     width: 80%;
-    height: 5%;
+    height: 10%;
     font-weight: 600;
     text-align: center;
     color: #FFFFFF;
