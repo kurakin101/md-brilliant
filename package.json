@@ -2,7 +2,7 @@
   "name": "front-for-pay",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://md-brillinant.com",
+  "homepage": "https://kurakin101.github.io/md-brilliant/",
   "dependencies": {
     "@firebase/auth": "^0.20.11",
     "@testing-library/jest-dom": "^5.16.5",
