@@ -26,7 +26,7 @@
 }
 
 .lables{
-    width: 37%;
+    width: 40%;
     height: 40%;
     display: flex;
     flex-direction: column;
@@ -57,9 +57,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 20vh;
-    gap: 13%;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .inputs{
@@ -76,6 +74,10 @@
     border: none;
 }
 
+.inputs:last-child{
+    margin-top: 4%;
+}
+
 .inputs::placeholder{
     opacity: 0.5;
 }
@@ -86,6 +88,7 @@
 
 
 #authenticationBtn{
+    margin-top: 3%;
     display: block;
     width: 45%;
     text-align: center;
@@ -198,7 +201,7 @@
     #mobile>p{
         color: #3E0B71;
         font-family: "Montserrat";
-        font-size: 2.4vh;
+        font-size: 2.7vh;
         font-weight: 500;
     }
 
@@ -216,7 +219,6 @@
         flex-direction: column;
         width: 100%;
         height: 50%;
-        gap: 13%;
     }
 
     .inputs{
@@ -227,7 +229,7 @@
     }
 
     #authenticationBtn{
-        margin-top: 5%;
+        margin-top: 0;
         height: 4.8vh;
         border-radius: 16px;
         font-size: 1.6vh;
@@ -254,7 +256,7 @@
     #description{
         border: none;
         width: 71%;
-        font-size: 1.72vh;
+        font-size: 2vh;
         height: 100%;
         overflow: hidden;
         color: #fff;
@@ -285,4 +287,3 @@
     }
 
 }
-
