@@ -34,18 +34,15 @@ function ProductsPage({
     const payRequest = (key: number) => {
       console.log(key)
       axios({
-        url: "/api/order/create/",
+        url: "https://md-server.ru/api/order/create/",
         method: "POST",
         data: {
           ProductId: key,
           UserId: id_user
         }
       }).then((val)=>{
-        const data: {
-          OrderId: any,
-          PaymentURL: string
-        } = val.data
-        window.location.href = data.PaymentURL
+        const data: string = val.data
+        window.location.href = data
       })
     }
     useEffect(()=> {
