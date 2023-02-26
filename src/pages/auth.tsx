@@ -48,7 +48,7 @@ function AuthPage({
         signInWithEmailAndPassword(auth, login, password)
         .then(async(userCredential) => {
             const user = userCredential.user;
-            const userId = await user.getIdToken()
+            const userId = user.uid
             set_page(<ProductsPage
                 set_page={set_page}
                 id_user={userId}
