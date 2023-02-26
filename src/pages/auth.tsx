@@ -46,11 +46,12 @@ function AuthPage({
     };
     const authentication_request = () => {
         signInWithEmailAndPassword(auth, login, password)
-        .then((userCredential) => {
+        .then(async(userCredential) => {
             const user = userCredential.user;
+            const userId = await user.getIdToken()
             set_page(<ProductsPage
                 set_page={set_page}
-                id_user={user.email}
+                id_user={userId}
             />)
         })
         .catch((error) => {
