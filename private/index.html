@@ -24,13 +24,8 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <object data="document_1.pdf" type="application/pdf" width="100%" height="100%">
+        <embed src="document_1.pdf" type="application/pdf" />
         <p>Alternative text - include a link <a href="document_1.pdf">to the PDF!</a></p>
     </object>
   </body>
-  <script>
-    let isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-    if (isSafari) {
-      document.querySelector('body').style.overflowY = 'scroll'
-    }
-  </script>
 </html>
