@@ -11,6 +11,7 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <style>
+        
         body {
             padding: 0;
             margin: 0;
@@ -26,4 +27,10 @@
         <p>Alternative text - include a link <a href="document_1.pdf">to the PDF!</a></p>
     </object>
   </body>
+  <script>
+    let isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    if (isSafari) {
+      document.querySelector('body').style.overflowY = 'scroll'
+    }
+  </script>
 </html>
