@@ -16,14 +16,18 @@
             padding: 0;
             margin: 0;
             height: 100vh;
-            overflow-y: hidden;
+            overflow: hidden;
+        }
+        #theFrame {
+          height: 100vh;
+          width: 100vw;
         }
     </style>
     <title>MDBrilliant</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <iframe id="theFrame" src="document_1.pdf" style="height:1000px; width:100%;"></iframe>
+    <iframe id="theFrame" src="https://drive.google.com/file/d/1arludr-IR2OzE29nm6Q2hg021cKqNi8m/preview" allow="autoplay"></iframe>
     <script>
       document.getElementById("theFrame").contentWindow.onload = function() {
       this.document.getElementsByTagName("img")[0].style.width="100%";
