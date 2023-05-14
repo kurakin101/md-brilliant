@@ -7,8 +7,8 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="width">
     <meta name="theme-color" content="#000000" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="icon" href="%PUBLIC_URL%/../favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/../logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <style>
         
@@ -16,21 +16,22 @@
             padding: 0;
             margin: 0;
             height: 100vh;
-            overflow-y: hidden;
+            overflow: hidden;
+        }
+        #theFrame {
+          height: 100vh;
+          width: 100vw;
         }
     </style>
     <title>MDBrilliant</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <object data="document_1.pdf" type="application/pdf" width="100%" height="100%">
-        <p>Alternative text - include a link <a href="document_1.pdf">to the PDF!</a></p>
-    </object>
+    <iframe id="theFrame" src="https://drive.google.com/file/d/1arludr-IR2OzE29nm6Q2hg021cKqNi8m/preview" allow="autoplay"></iframe>
+    <script>
+      document.getElementById("theFrame").contentWindow.onload = function() {
+      this.document.getElementsByTagName("img")[0].style.width="100%";
+    };
+    </script>
   </body>
-  <script>
-    let isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-    if (isSafari) {
-      document.querySelector('body').style.overflowY = 'scroll'
-    }
-  </script>
 </html>
